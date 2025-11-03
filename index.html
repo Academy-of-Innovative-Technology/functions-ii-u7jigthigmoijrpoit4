@@ -24,11 +24,11 @@
           </div>
         </div>
         <div class="row g-2 mb-3">
-          <div class="col"><button class="btn btn-primary w-100">Add (+)</button></div>
-          <div class="col"><button class="btn btn-secondary w-100">Subtract (-)</button></div>
-          <div class="col"><button class="btn btn-success w-100">Multiply (*)</button></div>
-          <div class="col"><button class="btn btn-warning w-100">Divide (/)</button></div>
-          <div class="col"><button class="btn btn-danger w-100">Modulus (%)</button></div>
+          <div class="col"><button id="button1" class="btn btn-primary w-100">Add (+)</button></div>
+          <div class="col"><button id="button2" class="btn btn-secondary w-100">Subtract (-)</button></div>
+          <div class="col"><button id="button3" class="btn btn-success w-100">Multiply (*)</button></div>
+          <div class="col"><button id="button4" class="btn btn-warning w-100">Divide (/)</button></div>
+          <div class="col"><button id="button5" class="btn btn-danger w-100">Modulus (%)</button></div>
         </div>
         <div class="alert alert-info" id="basicResult">Result will appear here</div>
       </div>
@@ -46,13 +46,13 @@
           <div class="col"><input id="rectLength" type="number" class="form-control" placeholder="Length"></div>
           <div class="col"><input id="rectWidth" type="number" class="form-control" placeholder="Width"></div>
         </div>
-        <button class="btn btn-outline-primary mb-2">Calculate Area</button>
+        <button id="rectButton" class="btn btn-outline-primary mb-2">Calculate Area</button>
         <div class="alert alert-light" id="rectResult"></div>
 
         <!-- Circle Area -->
         <h5 class="mt-4">2. Area of Circle (π × r²)</h5>
         <input id="circleRadius" type="number" class="form-control mb-2" placeholder="Radius">
-        <button class="btn btn-outline-primary mb-2">Calculate Area</button>
+        <button id="circleButton" class="btn btn-outline-primary mb-2">Calculate Area</button>
         <div class="alert alert-light" id="circleResult"></div>
 
         <!-- Pythagorean Theorem -->
@@ -176,8 +176,9 @@
     </div>
   </div>
 
-  <!-- Bootstrap JS Bundle (Optional but useful for future additions) -->
-  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap JS Bunsdle (Optional but useful for future additions) -->
+  <script src="js/bootstrap.bundle.min.j"></script>
+  <script src="script.js"></script>
 
 </body>
 </html>
